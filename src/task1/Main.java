@@ -1,3 +1,5 @@
+package task1;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,13 +38,13 @@ public class Main {
 
         Trial trial = new Trial("Тест-драйв перед екзаменом", questions);
 
-        System.out.println("=== Exam ===");
+        System.out.println("=== task1.Exam ===");
         exam.Show();
 
-        System.out.println("\n=== Final Exam ===");
+        System.out.println("\n=== Final task1.Exam ===");
         finalExam.Show();
 
-        System.out.println("\n=== Trial Test ===");
+        System.out.println("\n=== task1.Trial task1.Test ===");
         trial.Show();
 
         System.out.println("\n=== Перевірка правильних відповідей ===");

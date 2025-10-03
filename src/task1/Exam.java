@@ -1,3 +1,5 @@
+package task1;
+
 import java.util.List;
 
 public class Exam extends Test {
